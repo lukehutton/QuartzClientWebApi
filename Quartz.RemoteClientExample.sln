@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CC481426-E64A-40BC-9498-23585D1BBC62}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Client.Api", "Quartz.Client.Api\Quartz.Client.Api.csproj", "{7AE6D1AA-8A68-43A5-B307-0CC2DE43CE06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quartz.Remote.Scheduler", "Quartz.Remote.Scheduler\Quartz.Remote.Scheduler.csproj", "{68E3AB79-BB90-4BF6-9AB2-F34F67BC0D76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AE6D1AA-8A68-43A5-B307-0CC2DE43CE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AE6D1AA-8A68-43A5-B307-0CC2DE43CE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AE6D1AA-8A68-43A5-B307-0CC2DE43CE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AE6D1AA-8A68-43A5-B307-0CC2DE43CE06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E3AB79-BB90-4BF6-9AB2-F34F67BC0D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E3AB79-BB90-4BF6-9AB2-F34F67BC0D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E3AB79-BB90-4BF6-9AB2-F34F67BC0D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E3AB79-BB90-4BF6-9AB2-F34F67BC0D76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
